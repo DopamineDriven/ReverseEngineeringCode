@@ -5,6 +5,46 @@ Dissecting the app file by file via google docs; Passport, Node, Sequelize
 # Google Doc
 https://docs.google.com/document/d/1rRF8fR1gxQpL1yGfBqbZZhWqRV4NfQg4U2PJPnAkikw/edit?usp=sharing
 
+Directory Structure
+
+│ 
+├── config
+│   ├── middleware
+│   │   └── isAuthenticated.js
+│   ├── config.json
+│   └── passport.js 
+│         
+├── models
+│   ├── index.js
+│   └── user.js
+│ 
+├── node_modules
+│
+├── public
+│   ├── js
+│   │   ├── login.js
+│   │   ├── members.js
+│   │   └── signup.js
+│   ├── stylesheets
+│   │   └── style.css
+│   ├── login.html
+│   ├── members.html
+│   └── signup.html
+│         
+├── routes
+│   ├── api-routes.js
+│   └── html-routes.js
+│ 
+├── .gitignore
+│ 
+├── package-lock.json
+│ 
+├── package.json
+│
+├── README.md
+│
+└── server.js
+
 
 Unit 14 Sequelize Homework: Reverse Engineering Code
 Reverse engineer the starter code provided and create a tutorial for the code.
