@@ -5,7 +5,8 @@ Dissecting the app file by file via google docs; Passport, Node, Sequelize
 # Google Doc
 https://docs.google.com/document/d/1rRF8fR1gxQpL1yGfBqbZZhWqRV4NfQg4U2PJPnAkikw/edit?usp=sharing
 
-Directory Structure
+
+# Directory Structure
 
 │ 
 ├── config
@@ -45,6 +46,17 @@ Directory Structure
 │
 └── server.js
 
+## npm dependencies
+
+- mysql2 -- https://www.npmjs.com/package/mysql2
+- express -- https://www.npmjs.com/package/express
+- express-session -- https://www.npmjs.com/package/express-session
+- body-parser -- https://www.npmjs.com/package/body-parser
+- nodemon -- https://www.npmjs.com/package/nodemon
+- sequelize -- https://www.npmjs.com/package/sequelize
+- passport -- https://www/npmjs.com/package/passport
+- passport-local -- https://www/npmjs.com/package/passport-local
+- bcryptjs -- https://www.npmjs.com/package/bcryptjs
 
 Unit 14 Sequelize Homework: Reverse Engineering Code
 Reverse engineer the starter code provided and create a tutorial for the code.
