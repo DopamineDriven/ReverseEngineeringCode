@@ -1,0 +1,42 @@
+{
+  "name": "reverseengineeringcode",
+  "version": "1.0.0",
+  "description": "Dissecting the app file by file via google docs; Passport, Node, Sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DopamineDriven/ReverseEngineeringCode.git"
+  },
+  "keywords": [
+    "node.js",
+    "sequelize",
+    "passport.js",
+    "bcrypt.js",
+    "mysql2",
+    "express",
+    "express-session"
+  ],
+  "author": "Andrew Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DopamineDriven/ReverseEngineeringCode/issues"
+  },
+  "homepage": "https://github.com/DopamineDriven/ReverseEngineeringCode#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mysql2": "^2.1.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
